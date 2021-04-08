@@ -10,17 +10,15 @@
 <body>
     <main>
         <h1>Say Hello!</h1>
-        <form>
+        <form action="thanks.html">
         <label>Your Name <span class="required">*</span>
             <input type="text" placeholder="Enter your name" required/>
             <span></span>
         </label>
-        <hr>
         <label>Email <span class="required">*</span>
             <input type="email" placeholder="Enter your email address"  required />  
             <span></span>
         </label>
-        <hr>
         <label>Needed Services <span class="required">*</span>
             <select name="Services" required>
                 <option value="Tele">Telephone</option>
@@ -28,7 +26,6 @@
                 <option value="Mail">Mail</option>
             </select>
         </label>
-        <hr>
         <label>Budget <span class="required">*</span>
         <select name="Budget" required>
             <option value="Select">Select Budget</option>
@@ -37,11 +34,9 @@
             <option value="201-300">£201-300</option>
         </select>
         </label>
-        <hr> 
         <label>Message
          <textarea name="message" cols="38" rows="6" placeholder="Your message here..."></textarea>
         </label>
-        <hr class="line">
         <button type="submit">Submit</button>
         </form>
     </main>
