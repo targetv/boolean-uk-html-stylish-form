@@ -43,6 +43,9 @@ input{
     font-size: 0.95rem;
 }
 
+.required{
+    color: red;
+}
 
 select{
     display: block;
