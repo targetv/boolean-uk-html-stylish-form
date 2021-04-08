@@ -11,24 +11,25 @@
     <main>
         <h1>Say Hello!</h1>
         <form>
-        <label>Your Name
-            <input type="text" placeholder="Enter your name" />
+        <label>Your Name <span class="required">*</span>
+            <input type="text" placeholder="Enter your name" required/>
         </label>
         <hr>
-        <label>Email
-            <input type="email" placeholder="Enter your email address" />
+        <label>Email <span class="required">*</span>
+            <input type="email" placeholder="Enter your email address"  required />
         </label>
         <hr>
-        <label>Needed Services
-            <select name="Services">
+        <label>Needed Services <span class="required">*</span>
+            <select name="Services" required>
                 <option value="Tele">Telephone</option>
                 <option value="Email">Email</option>
                 <option value="Mail">Mail</option>
             </select>
         </label>
         <hr>
-        <label>Budget
-        <select name="Services">
+        <label>Budget <span class="required">*</span>
+        <select name="Budget" required>
+            <option value="Select">Select Budget</option>
             <option value="0-100">£0-100</option>
             <option value="101-200">£101-200</option>
             <option value="201-300">£201-300</option>
