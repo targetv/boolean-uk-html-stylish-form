@@ -43,18 +43,6 @@ input{
     font-size: 0.95rem;
 }
 
-input:valid{
-    border: 1px solid green;
-}
-
-input:invalid{
-    border: 1px solid red;
-}
-
-.required{
-    color: red;
-}
-
 
 select{
     display: block;
