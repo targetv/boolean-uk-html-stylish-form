@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background: linear-gradient(#e66465, #9198e5);
     width: 100vw;
@@ -18,6 +19,7 @@ main{
     border-radius: 10px;
     padding: 30px 40px;   
 }
+
 h1{
     text-align: center;
     margin-bottom: 15px;
@@ -27,10 +29,10 @@ form{
     display: grid;
     grid-template-columns: 1fr;
 }
+
 label{
     margin: 10px 0px 5px 0px;
 }
-
 
 input{
     display: block;
@@ -38,18 +40,21 @@ input{
     width: 100%;
     height: 30px;
     border: none;
+    font-size: 0.95rem;
 }
+
 select{
     display: block;
     margin: 10px 0px 10px 0px;
     border: none;
     width: 100%;
     height: 30px;
+    font-size: 0.95rem;
 }
 
 .message{
     height: 60px;
-   }
+}
 
 button{
     width: 100%;
@@ -64,8 +69,10 @@ button{
 .line{
     margin: 10px 0px 0px 0px;
 }
+
 textarea{
     display: block;
     border: none;
     margin-top: 10px;
+    font-size: 1.05rem;
 }
