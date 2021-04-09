@@ -24,6 +24,9 @@ h1{
     text-align: center;
     margin-bottom: 15px;
 }
+input:not(:placeholder-shown):invalid {
+    border-bottom: 2px solid rgba(190, 12, 12, 0.37);
+  }
 
 form{
     display: grid;
